@@ -1,0 +1,17 @@
+---
+title: "Weird R CMD check Warnings"
+author: Daniel C. Dillon
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Weird R CMD check Warnings}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+
+```{r, engine='Rcpp'}
+
+// [[Rcpp::export]]
+int foo() {return 1;}
+```
